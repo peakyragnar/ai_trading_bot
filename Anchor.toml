@@ -4,14 +4,14 @@
 resolution = true
 skip-lint = false
 
-[programs.localnet]
-ai_trading_bot = "EkkRQzE2pDWJ1Kfypu9tqaZkKJs9ae8iKugmCHXMKj5a"
+[programs.devnet]
+ai_trading_bot = "Rqr8zpYgDDhiEY9DWM4E4deyQU2wuQbyvVBnFr3yw6K"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "Devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
